@@ -13,7 +13,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 - **Reservation System**: Real-time table booking and parking availability.  
 - **Event Highlights**: View details about upcoming events and promotions.  
 - **About Page**: Learn more about The Gallery Café and its story.  
-- **Contact Page**: Easily connect with the restaurant for inquiries or feedback.  
+- **Contact Page**: Easily contact the restaurant for inquiries or feedback.  
 - **My Cart Page**: Manage pre-ordered items seamlessly.  
 - **User Authentication**: Includes user login, signup, and logout features.  
 - **Admin Dashboard**: Manage users, reservations, and menu updates.  
@@ -42,7 +42,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 
 - Configure your backend settings (e.g., database credentials).
 
-- Make sure to run the website on a local server (e.g., XAMPP or WAMP) to ensure proper functionality.
+- Run the website on a local server (e.g., XAMPP or WAMP) to ensure proper functionality.
 
 - Launch the website and enjoy!🤩
 
