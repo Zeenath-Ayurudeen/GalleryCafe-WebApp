@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Admin Container */
+.admin-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #0e0e0ef5;
+    height: 100vh;
+    color: white;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar-links li {
+    padding: 15px;
+}
+
+.sidebar-links li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.sidebar-links li.active a {
+    background-color: #c5671b;
+  
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+/* User Accounts Section */
+
+h2 {
+    margin-bottom: 20px;
+    color: #c5671b;
+}
+h3{color: #333;
+}
+
+.delete-btn {
+    background-color: #e74c3c; 
+    color: white; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    border: none; 
+    font-size: 14px; 
+    cursor: pointer; 
+    display: inline-block; 
+}
+
+.delete-btn:hover {
+    background-color: #c0392b; 
+    text-decoration: none;
+}
+/* Table Styles */
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+    padding: 15px; 
+    border-bottom: 1px solid #ddd;
+    text-align: left; 
+}
+
+th {
+    background-color: #f4f4f4; 
+    color: #333; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+td {
+    background-color: white;
+    color: #333; 
+}
+table {
+    table-layout: fixed;
+}
+
+th, td {
+    width: 25%; 
+}
+
+/* Column width adjustment for reservations */
+th:nth-child(1), td:nth-child(1) { 
+    width: 9%;
+}
+th:nth-child(2), td:nth-child(2) { 
+    width: 15%;
+}
+th:nth-child(4), td:nth-child(4){
+    width: 15%;
+}
+th:nth-child(5), td:nth-child(5) { 
+    width: 15%;
+}
+th:nth-child(6), td:nth-child(6) { 
+    width: 10%;
+}
+th:nth-child(7), td:nth-child(7) { 
+    width: 10%;
+}
+th:nth-child(8), td:nth-child(8) { 
+    width: 10%;
+}
+th:nth-child(10), td:nth-child(10) { 
+    width: 10%;
+}
+th:nth-child(11), td:nth-child(11) { 
+    width: 10%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafafa; 
+}
+
+/* Form Styles */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #c5671b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b45f19;
+}
+/* Styles for Approve and Cancel buttons */
+.approve-btn, .cancel-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.approve-btn {
+    background-color: #2ecc71; 
+}
+
+.approve-btn:hover {
+    background-color: #27ae60; 
+}
+
+.cancel-btn {
+    background-color: #e74c3c; 
+}
+
+.cancel-btn:hover {
+    background-color: #c0392b; 
+}
+
+/* Admin Page Styles (amenu.php) */
+
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="file"] {
+    padding: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #c5671b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b45f19;
+}
+
+
+table img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+}
+
+
+button, a.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+button {
+    background-color: #007bff;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.delete-button {
+    background-color: #e74c3c;
+}
+.delete-button:hover {
+    background-color: #c0392b
+}
+
+.edit-form {
+    width: 100%;
+    display: none;
+    margin: 10px 0; 
+    padding: 20px;
+
+}
+.edit-form label {
+    display: block; 
+    margin-bottom: 5px;
+}
+.edit-form input, .edit-form select {
+    width: 100%; 
+    box-sizing: border-box; /
+    
+}
