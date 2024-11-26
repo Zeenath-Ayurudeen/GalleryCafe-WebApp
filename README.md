@@ -1,6 +1,6 @@
 
 # 🍴 The Gallery Cafe Website
-Welcome to The Gallery Café Website! This is a dynamic, responsive web application crafted to enhance the dining experience for The Gallery Café. It includes a customer-facing website, along with admin and staff dashboards to streamline restaurant operations.
+Welcome to The Gallery Café Website! This is a dynamic, responsive web application crafted to enhance the dining experience for The Gallery Cafe. It includes a customer-facing website, along with admin and staff dashboards to streamline restaurant operations.
 
 
 
