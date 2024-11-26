@@ -47,7 +47,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 - Launch the website and enjoy!🤩
 
 
-## Visual Preview
+## Visual Previews
 
 ### The Gallery Cafe Website's UIs
 
