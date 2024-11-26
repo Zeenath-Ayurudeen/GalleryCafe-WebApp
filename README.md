@@ -21,7 +21,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 
 ## Admin Dashboard Features:
 - **User Accounts**: Manage ordered items and handle checkout seamlessly. 
-- **Menu**: Add or update food, beverage and desserts items.
+- **Menu**: Add or update food, beverage, and dessert items.
 - **Orders**: Manage and process customer orders.
 - **Reservations**: View, confirm, or modify customer bookings.
 - **Promotions**: Create or update promotional offers.
