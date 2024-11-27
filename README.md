@@ -53,7 +53,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 
 **1. Home Page**
 
-![Home Page](https://github.com/user-attachments/assets/3121f42f-0daa-4aab-b0e1-30635c56795e)
+![Home Page](https://github.com/user-attachments/assets/8f8174ab-aa63-4692-9ace-d5383cfd1032)
 
 
 **2. Login/SignUp Page**
