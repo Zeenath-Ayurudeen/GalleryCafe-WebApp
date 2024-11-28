@@ -28,7 +28,7 @@ Welcome to The Gallery Café Website! This is a dynamic, responsive web applicat
 - **Events**: Manage and showcase upcoming events for customers.
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (Responsive Design)
+- **Frontend**: HTML5, CSS, JavaScript (Responsive Design)
 - **Backend**: PHP
 - **Database**: MySQL
 ## How to Use
